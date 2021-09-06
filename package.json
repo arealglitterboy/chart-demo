@@ -1,0 +1,31 @@
+{
+  "name": "chart-demo",
+  "version": "1.0.0",
+  "description": "A webpage for demonstrating a variety of charts available in Chart.js",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development"
+  },
+  "author": "arealglitterboy",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "css-loader": "^6.2.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
